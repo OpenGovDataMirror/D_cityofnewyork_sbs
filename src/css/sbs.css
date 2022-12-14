@@ -1,0 +1,55 @@
+.facility .ico, #filters .ico {
+  float: left;
+  border-radius: 50%;
+}
+.facility .ico {
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+}
+#filters .ico {
+  margin: 8px 3px 10px 3px;
+  width: 12px;
+  height: 12px;
+}
+.translated-rtl .dtl ul {
+  margin: 5px;
+}
+.translated-rtl .name .ico {
+  float: right;
+  margin-left: 3px;
+}
+.translated-rtl #filters .ico {
+  margin: 8px 5px 10px 5px;
+  float: right;
+}
+.translated-rtl .pop>.content .name {
+  padding-right: initial;
+}
+.ico.chc-business-center, .ico.business-center {
+  background-color: var(--business-center);
+}
+.ico.chc-workforce1-center, .ico.workforce1-center {
+  background-color: var(--workforce1-center);
+}
+.ico.chc-industrial-transportation-services, .ico.industrial-transportation-services {
+  background-color: var(--industrial-transportation-services);
+}
+html, body, body * {
+  color: black;
+}
+.btn * {
+  color: var(--color-dark);
+}
+.btn-sq:hover, .btn-rnd:hover {
+  background-color: #4294CD;
+  color: var(--color-light);
+}
+.tabs button.btn.active:focus, .tabs button.btn.active:focus * {
+  background-color: white;
+  color: var(--color-dark);
+}
+.fnd .splash a.btn.rad-all.btn-yes {
+  width: 245px !important;
+  padding-left: 35px;
+}
